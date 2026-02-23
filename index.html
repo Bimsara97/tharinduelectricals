@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>New Tharindu Electricals | Electrical Equipment & Sound Systems in Matara, Sri Lanka</title>
+  <meta name="description"
+    content="New Tharindu Electricals – Your trusted supplier of electrical equipment, wiring, lighting, switches, sound systems and audio accessories in Palatuwa, Matara, Sri Lanka." />
+  <meta name="keywords"
+    content="electrical shop Matara, sound systems Matara, electrical equipment Sri Lanka, lighting solutions Matara, speakers Matara, wiring items Matara, Tharindu Electricals" />
+  <meta property="og:title" content="New Tharindu Electricals | Electrical & Sound Systems – Matara" />
+  <meta property="og:description"
+    content="Quality electrical equipment and sound system solutions in Palatuwa, Matara." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.example.com" />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=1200" />
+  <link rel="canonical" href="https://www.example.com" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#0f2a5e',
+            'primary-light': '#163a7a',
+            accent: '#f5b731',
+            'accent-hover': '#e0a520',
+            charcoal: '#2d2d2d',
+            'card-bg': '#f8fafc',
+          },
+          fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'] }
+        }
+      }
+    }
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <style>
+    .reveal {
+      opacity: 0;
+      transform: translateY(30px);
+      transition: opacity .6s ease, transform .6s ease
+    }
+
+    .revealed {
+      opacity: 1;
+      transform: translateY(0)
+    }
+
+    .hero-overlay {
+      background: linear-gradient(135deg, rgba(15, 42, 94, .92) 0%, rgba(22, 58, 122, .8) 50%, rgba(15, 42, 94, .7) 100%)
+    }
+
+    .card-hover {
+      transition: transform .3s ease, box-shadow .3s ease
+    }
+
+    .card-hover:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, .12)
+    }
+
+    html {
+      scroll-behavior: smooth
+    }
+  </style>
+</head>
+
+<body class="font-sans text-charcoal bg-white antialiased">
+
+  <!-- ========== NAVBAR ========== -->
+  <nav id="navbar" class="fixed top-0 left-0 w-full z-50 bg-primary/95 backdrop-blur-md transition-shadow duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
+      <a href="#hero" class="flex items-center gap-2 text-white font-extrabold text-lg tracking-tight">
+        <i class="fa-solid fa-bolt text-accent text-xl"></i> New Tharindu Electricals
+      </a>
+      <div class="hidden md:flex items-center gap-6 text-sm">
+        <a href="#hero" class="nav-link text-gray-200 hover:text-accent transition">Home</a>
+        <a href="#about" class="nav-link text-gray-200 hover:text-accent transition">About</a>
+        <a href="#products" class="nav-link text-gray-200 hover:text-accent transition">Products</a>
+        <a href="#services" class="nav-link text-gray-200 hover:text-accent transition">Services</a>
+        <a href="#why-us" class="nav-link text-gray-200 hover:text-accent transition">Why Us</a>
+        <a href="#contact" class="nav-link text-gray-200 hover:text-accent transition">Contact</a>
+      </div>
+      <button id="menu-btn" class="md:hidden text-white text-2xl focus:outline-none" aria-label="Toggle menu">
+        <i id="menu-icon" class="fa-solid fa-bars"></i>
+        <i id="close-icon" class="fa-solid fa-xmark hidden"></i>
+      </button>
+    </div>
+    <div id="mobile-menu" class="hidden md:hidden bg-primary-light border-t border-white/10">
+      <div class="flex flex-col px-6 py-4 gap-3 text-sm">
+        <a href="#hero" class="nav-link text-gray-200 hover:text-accent py-1">Home</a>
+        <a href="#about" class="nav-link text-gray-200 hover:text-accent py-1">About</a>
+        <a href="#products" class="nav-link text-gray-200 hover:text-accent py-1">Products</a>
+        <a href="#services" class="nav-link text-gray-200 hover:text-accent py-1">Services</a>
+        <a href="#why-us" class="nav-link text-gray-200 hover:text-accent py-1">Why Us</a>
+        <a href="#contact" class="nav-link text-gray-200 hover:text-accent py-1">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ========== HERO ========== -->
+  <section id="hero" class="relative min-h-[92vh] flex items-center justify-center pt-16"
+    style="background:url('https://images.unsplash.com/photo-1621905252507-b35492cc74b4?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat">
+    <div class="hero-overlay absolute inset-0"></div>
+    <div class="relative z-10 text-center px-4 max-w-3xl mx-auto">
+      <span
+        class="inline-block bg-accent/20 text-accent font-semibold text-xs uppercase tracking-widest px-4 py-1.5 rounded-full mb-6 border border-accent/30"><i
+          class="fa-solid fa-bolt mr-1"></i> Since 2025</span>
+      <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-tight mb-5">New Tharindu<br><span
+          class="text-accent">Electricals</span></h1>
+      <p class="text-gray-200 text-base sm:text-lg max-w-xl mx-auto mb-8 leading-relaxed">Trusted Electrical Equipment
+        and Sound System Solutions in Matara</p>
+      <div class="flex flex-col sm:flex-row gap-3 justify-center">
+        <a href="tel:+94XXXXXXXXX"
+          class="inline-flex items-center justify-center gap-2 bg-accent hover:bg-accent-hover text-primary font-bold px-7 py-3.5 rounded-lg transition shadow-lg shadow-accent/20"><i
+            class="fa-solid fa-phone"></i> Call Now</a>
+        <a href="https://maps.google.com/?q=No+144+Mahaovita+Palatuwa+Matara+Sri+Lanka" target="_blank"
+          class="inline-flex items-center justify-center gap-2 border-2 border-white/60 text-white hover:bg-white/10 font-semibold px-7 py-3.5 rounded-lg transition"><i
+            class="fa-solid fa-location-dot"></i> Get Directions</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT ========== -->
+  <section id="about" class="py-20 bg-white">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid md:grid-cols-2 gap-12 items-center">
+        <div class="reveal">
+          <img src="images/interior.jpg" alt="Electrical shop interior"
+            class="rounded-2xl shadow-xl w-full object-cover h-80 md:h-96" />
+        </div>
+        <div class="reveal">
+          <span class="text-accent font-semibold text-sm uppercase tracking-widest">About Us</span>
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-primary mt-2 mb-5">Your Local Electrical Partner in Matara
+          </h2>
+          <p class="text-gray-600 leading-relaxed mb-4"><strong>New Tharindu Electricals</strong> is a registered
+            individual business in Sri Lanka, located at <strong>No 144, Mahaovita, Palatuwa, Matara</strong>. We
+            proudly serve customers in and around <strong>Thihagoda</strong> and the greater Matara district.</p>
+          <p class="text-gray-600 leading-relaxed mb-4">Our business focuses on supplying a wide range of
+            <strong>electrical equipment, wiring items, lighting, switches</strong>, and complete <strong>sound system
+              solutions</strong> – all at competitive prices with friendly, personalized service.
+          </p>
+          <p class="text-gray-600 leading-relaxed">Established in <strong>2025</strong>, we are committed to becoming
+            the most trusted electrical supplier in the region, offering quality products and expert guidance for every
+            project.</p>
+          <div class="flex items-center gap-3 mt-6 text-sm text-gray-500"><i
+              class="fa-solid fa-certificate text-accent text-lg"></i> Cert No: 260203027 &middot; Registered Business
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PRODUCTS ========== -->
+  <section id="products" class="py-20 bg-gray-50">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <span class="text-accent font-semibold text-sm uppercase tracking-widest">Our Products</span>
+      <h2 class="text-3xl sm:text-4xl font-extrabold text-primary mt-2 mb-4">Product Categories</h2>
+      <p class="text-gray-500 max-w-xl mx-auto mb-12">Browse our wide selection of quality electrical items and sound
+        systems.</p>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Card -->
+        <div class="reveal card-hover bg-white rounded-2xl shadow-md overflow-hidden">
+          <img src="images/accessories.JPG" alt="Electrical Accessories" class="w-full h-48 object-cover" />
+          <div class="p-5 text-left">
+            <h3 class="font-bold text-primary text-lg mb-1">Electrical Accessories</h3>
+            <p class="text-gray-500 text-sm">Plugs, connectors, tapes, tools and essential electrical accessories.</p>
+          </div>
+        </div>
+        <div class="reveal card-hover bg-white rounded-2xl shadow-md overflow-hidden">
+          <img src="images/wiring.JPG" alt="Wiring and Installation" class="w-full h-48 object-cover" />
+          <div class="p-5 text-left">
+            <h3 class="font-bold text-primary text-lg mb-1">Wiring & Installation Items</h3>
+            <p class="text-gray-500 text-sm">Cables, conduits, junction boxes and all wiring materials.</p>
+          </div>
+        </div>
+        <div class="reveal card-hover bg-white rounded-2xl shadow-md overflow-hidden">
+          <img src="images/Lighting-solutions.jpg" alt="Lighting Solutions" class="w-full h-48 object-cover" />
+          <div class="p-5 text-left">
+            <h3 class="font-bold text-primary text-lg mb-1">Lighting Solutions</h3>
+            <p class="text-gray-500 text-sm">LED bulbs, panel lights, strip lights and decorative fixtures.</p>
+          </div>
+        </div>
+        <div class="reveal card-hover bg-white rounded-2xl shadow-md overflow-hidden">
+          <img src="images/saudi-arabia-alfanar-electric-switches-sockets-ranges.jpg" alt="Switches and Sockets"
+            class="w-full h-48 object-cover" />
+          <div class="p-5 text-left">
+            <h3 class="font-bold text-primary text-lg mb-1">Switches & Sockets</h3>
+            <p class="text-gray-500 text-sm">Modern switches, sockets, dimmers and control panels.</p>
+          </div>
+        </div>
+        <div class="reveal card-hover bg-white rounded-2xl shadow-md overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1545454675-3531b543be5d?auto=format&fit=crop&w=600&q=80"
+            alt="Sound Systems" class="w-full h-48 object-cover" />
+          <div class="p-5 text-left">
+            <h3 class="font-bold text-primary text-lg mb-1">Sound Systems</h3>
+            <p class="text-gray-500 text-sm">Complete PA systems, amplifiers and mixing consoles.</p>
+          </div>
+        </div>
+        <div class="reveal card-hover bg-white rounded-2xl shadow-md overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1558537348-c0f8e733989d?auto=format&fit=crop&w=600&q=80"
+            alt="Speakers and Audio" class="w-full h-48 object-cover" />
+          <div class="p-5 text-left">
+            <h3 class="font-bold text-primary text-lg mb-1">Speakers & Audio Accessories</h3>
+            <p class="text-gray-500 text-sm">Speakers, microphones, cables and audio accessories.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SERVICES ========== -->
+  <section id="services" class="py-20 bg-white">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <span class="text-accent font-semibold text-sm uppercase tracking-widest">What We Offer</span>
+      <h2 class="text-3xl sm:text-4xl font-extrabold text-primary mt-2 mb-4">Our Services</h2>
+      <p class="text-gray-500 max-w-xl mx-auto mb-12">We go beyond just selling products – we provide complete
+        solutions.</p>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="reveal card-hover bg-card-bg border border-gray-100 rounded-2xl p-7 text-left">
+          <div class="w-12 h-12 bg-accent/15 rounded-xl flex items-center justify-center mb-4"><i
+              class="fa-solid fa-cart-shopping text-accent text-xl"></i></div>
+          <h3 class="font-bold text-primary text-lg mb-2">Product Sales</h3>
+          <p class="text-gray-500 text-sm">Wide range of electrical and sound system products available in-store.</p>
+        </div>
+        <div class="reveal card-hover bg-card-bg border border-gray-100 rounded-2xl p-7 text-left">
+          <div class="w-12 h-12 bg-accent/15 rounded-xl flex items-center justify-center mb-4"><i
+              class="fa-solid fa-boxes-stacked text-accent text-xl"></i></div>
+          <h3 class="font-bold text-primary text-lg mb-2">Bulk Orders</h3>
+          <p class="text-gray-500 text-sm">Special pricing for contractors, electricians and bulk buyers.</p>
+        </div>
+        <div class="reveal card-hover bg-card-bg border border-gray-100 rounded-2xl p-7 text-left">
+          <div class="w-12 h-12 bg-accent/15 rounded-xl flex items-center justify-center mb-4"><i
+              class="fa-solid fa-volume-high text-accent text-xl"></i></div>
+          <h3 class="font-bold text-primary text-lg mb-2">Sound System Supply</h3>
+          <p class="text-gray-500 text-sm">Complete sound system packages for events, venues and homes.</p>
+        </div>
+        <div class="reveal card-hover bg-card-bg border border-gray-100 rounded-2xl p-7 text-left">
+          <div class="w-12 h-12 bg-accent/15 rounded-xl flex items-center justify-center mb-4"><i
+              class="fa-solid fa-magnifying-glass text-accent text-xl"></i></div>
+          <h3 class="font-bold text-primary text-lg mb-2">Electrical Item Sourcing</h3>
+          <p class="text-gray-500 text-sm">Can't find what you need? We'll source it for you.</p>
+        </div>
+        <div class="reveal card-hover bg-card-bg border border-gray-100 rounded-2xl p-7 text-left">
+          <div class="w-12 h-12 bg-accent/15 rounded-xl flex items-center justify-center mb-4"><i
+              class="fa-solid fa-headset text-accent text-xl"></i></div>
+          <h3 class="font-bold text-primary text-lg mb-2">Customer Support</h3>
+          <p class="text-gray-500 text-sm">Friendly advice and after-sales support for all purchases.</p>
+        </div>
+        <div class="reveal card-hover bg-card-bg border border-gray-100 rounded-2xl p-7 text-left">
+          <div class="w-12 h-12 bg-accent/15 rounded-xl flex items-center justify-center mb-4"><i
+              class="fa-solid fa-truck text-accent text-xl"></i></div>
+          <h3 class="font-bold text-primary text-lg mb-2">Delivery Inquiry</h3>
+          <p class="text-gray-500 text-sm">Contact us for delivery options in the Matara district.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== WHY US ========== -->
+  <section id="why-us" class="py-20 bg-primary text-white">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <span class="text-accent font-semibold text-sm uppercase tracking-widest">Why Choose Us</span>
+      <h2 class="text-3xl sm:text-4xl font-extrabold mt-2 mb-12">The New Tharindu Advantage</h2>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="reveal flex flex-col items-center">
+          <div class="w-14 h-14 bg-accent/20 rounded-full flex items-center justify-center mb-4"><i
+              class="fa-solid fa-map-pin text-accent text-2xl"></i></div>
+          <h3 class="font-bold text-lg mb-1">Local Business</h3>
+          <p class="text-gray-300 text-sm">Proudly serving the Matara community from Palatuwa.</p>
+        </div>
+        <div class="reveal flex flex-col items-center">
+          <div class="w-14 h-14 bg-accent/20 rounded-full flex items-center justify-center mb-4"><i
+              class="fa-solid fa-award text-accent text-2xl"></i></div>
+          <h3 class="font-bold text-lg mb-1">Quality Products</h3>
+          <p class="text-gray-300 text-sm">Only trusted brands and reliable electrical items.</p>
+        </div>
+        <div class="reveal flex flex-col items-center">
+          <div class="w-14 h-14 bg-accent/20 rounded-full flex items-center justify-center mb-4"><i
+              class="fa-solid fa-face-smile text-accent text-2xl"></i></div>
+          <h3 class="font-bold text-lg mb-1">Friendly Service</h3>
+          <p class="text-gray-300 text-sm">Warm, helpful service every time you visit.</p>
+        </div>
+        <div class="reveal flex flex-col items-center">
+          <div class="w-14 h-14 bg-accent/20 rounded-full flex items-center justify-center mb-4"><i
+              class="fa-solid fa-tags text-accent text-2xl"></i></div>
+          <h3 class="font-bold text-lg mb-1">Fair Pricing</h3>
+          <p class="text-gray-300 text-sm">Competitive prices without compromising quality.</p>
+        </div>
+        <div class="reveal flex flex-col items-center">
+          <div class="w-14 h-14 bg-accent/20 rounded-full flex items-center justify-center mb-4"><i
+              class="fa-solid fa-plug text-accent text-2xl"></i></div>
+          <h3 class="font-bold text-lg mb-1">Wide Product Range</h3>
+          <p class="text-gray-300 text-sm">Electrical items and sound systems under one roof.</p>
+        </div>
+        <div class="reveal flex flex-col items-center">
+          <div class="w-14 h-14 bg-accent/20 rounded-full flex items-center justify-center mb-4"><i
+              class="fa-solid fa-bolt text-accent text-2xl"></i></div>
+          <h3 class="font-bold text-lg mb-1">Quick Response</h3>
+          <p class="text-gray-300 text-sm">Fast inquiry handling and sourcing turnaround.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section id="contact" class="py-20 bg-gray-50">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-12">
+        <span class="text-accent font-semibold text-sm uppercase tracking-widest">Get In Touch</span>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-primary mt-2 mb-4">Contact Us</h2>
+        <p class="text-gray-500 max-w-xl mx-auto">Visit us, call us, or send an inquiry – we'd love to hear from you.
+        </p>
+      </div>
+      <div class="grid lg:grid-cols-2 gap-10">
+        <!-- Info + Map -->
+        <div class="space-y-6 reveal">
+          <div class="grid sm:grid-cols-2 gap-4">
+            <div class="bg-white rounded-xl p-5 shadow-sm border border-gray-100 flex items-start gap-3"><i
+                class="fa-solid fa-location-dot text-accent text-lg mt-1"></i>
+              <div>
+                <h4 class="font-semibold text-primary text-sm">Address</h4>
+                <p class="text-gray-500 text-sm">No 144, Mahaovita, Palatuwa, Matara, Sri Lanka</p>
+              </div>
+            </div>
+            <div class="bg-white rounded-xl p-5 shadow-sm border border-gray-100 flex items-start gap-3"><i
+                class="fa-solid fa-phone text-accent text-lg mt-1"></i>
+              <div>
+                <h4 class="font-semibold text-primary text-sm">Phone</h4>
+                <p class="text-gray-500 text-sm">+94 XX XXX XXXX</p>
+              </div>
+            </div>
+            <div class="bg-white rounded-xl p-5 shadow-sm border border-gray-100 flex items-start gap-3"><i
+                class="fa-brands fa-whatsapp text-accent text-lg mt-1"></i>
+              <div>
+                <h4 class="font-semibold text-primary text-sm">WhatsApp</h4>
+                <p class="text-gray-500 text-sm">+94 XX XXX XXXX</p>
+              </div>
+            </div>
+            <div class="bg-white rounded-xl p-5 shadow-sm border border-gray-100 flex items-start gap-3"><i
+                class="fa-solid fa-envelope text-accent text-lg mt-1"></i>
+              <div>
+                <h4 class="font-semibold text-primary text-sm">Email</h4>
+                <p class="text-gray-500 text-sm">info@example.com</p>
+              </div>
+            </div>
+          </div>
+          <div class="bg-white rounded-xl p-5 shadow-sm border border-gray-100 flex items-start gap-3"><i
+              class="fa-solid fa-clock text-accent text-lg mt-1"></i>
+            <div>
+              <h4 class="font-semibold text-primary text-sm">Business Hours</h4>
+              <p class="text-gray-500 text-sm">Mon – Sat: 8:00 AM – 6:00 PM &middot; Sun: Closed</p>
+            </div>
+          </div>
+          <div class="rounded-2xl overflow-hidden shadow-md border border-gray-200 h-64">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.8!2d80.53!3d5.98!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sNo+144+Mahaovita+Palatuwa+Matara+Sri+Lanka!5e0!3m2!1sen!2slk!4v1700000000000"
+              width="100%" height="100%" style="border:0;" allowfullscreen loading="lazy" title="Location Map"></iframe>
+          </div>
+        </div>
+        <!-- Form -->
+        <div class="reveal">
+          <form id="contact-form" class="bg-white rounded-2xl shadow-md border border-gray-100 p-6 sm:p-8 space-y-5"
+            novalidate>
+            <h3 class="text-xl font-bold text-primary mb-1">Send an Inquiry</h3>
+            <div>
+              <label for="form-name" class="block text-sm font-medium text-gray-700 mb-1">Name <span
+                  class="text-red-500">*</span></label>
+              <input id="form-name" type="text"
+                class="w-full border border-gray-300 rounded-lg px-4 py-2.5 text-sm focus:ring-2 focus:ring-accent focus:border-accent outline-none transition"
+                placeholder="Your name" required />
+              <p id="err-name" class="form-error text-red-500 text-xs mt-1"></p>
+            </div>
+            <div>
+              <label for="form-phone" class="block text-sm font-medium text-gray-700 mb-1">Phone <span
+                  class="text-red-500">*</span></label>
+              <input id="form-phone" type="tel"
+                class="w-full border border-gray-300 rounded-lg px-4 py-2.5 text-sm focus:ring-2 focus:ring-accent focus:border-accent outline-none transition"
+                placeholder="+94 XX XXX XXXX" required />
+              <p id="err-phone" class="form-error text-red-500 text-xs mt-1"></p>
+            </div>
+            <div>
+              <label for="form-email" class="block text-sm font-medium text-gray-700 mb-1">Email</label>
+              <input id="form-email" type="email"
+                class="w-full border border-gray-300 rounded-lg px-4 py-2.5 text-sm focus:ring-2 focus:ring-accent focus:border-accent outline-none transition"
+                placeholder="your@email.com" />
+              <p id="err-email" class="form-error text-red-500 text-xs mt-1"></p>
+            </div>
+            <div>
+              <label for="form-message" class="block text-sm font-medium text-gray-700 mb-1">Message <span
+                  class="text-red-500">*</span></label>
+              <textarea id="form-message" rows="4"
+                class="w-full border border-gray-300 rounded-lg px-4 py-2.5 text-sm focus:ring-2 focus:ring-accent focus:border-accent outline-none transition resize-none"
+                placeholder="How can we help you?" required></textarea>
+              <p id="err-message" class="form-error text-red-500 text-xs mt-1"></p>
+            </div>
+            <button type="submit"
+              class="w-full bg-accent hover:bg-accent-hover text-primary font-bold py-3 rounded-lg transition shadow-md shadow-accent/20"><i
+                class="fa-solid fa-paper-plane mr-2"></i>Send Message</button>
+            <div id="form-success"
+              class="hidden bg-green-50 border border-green-200 text-green-700 rounded-lg p-3 text-sm text-center"><i
+                class="fa-solid fa-circle-check mr-1"></i> Thank you! Your message has been received. We'll get back to
+              you soon.</div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== TRUST / REGISTRATION ========== -->
+  <section class="py-10 bg-white border-t border-gray-100">
+    <div
+      class="max-w-4xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-center gap-4 text-center sm:text-left">
+      <i class="fa-solid fa-shield-halved text-accent text-3xl"></i>
+      <div class="text-sm text-gray-500">
+        <p class="font-semibold text-primary mb-0.5">Registered Individual Business in Sri Lanka</p>
+        <p>Business Commencement Date: 10 November 2025 &middot; Certificate No: 260203027</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="bg-charcoal text-gray-400 pt-14 pb-6">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 grid sm:grid-cols-2 lg:grid-cols-4 gap-10 mb-10">
+      <div>
+        <h4 class="text-white font-bold text-lg flex items-center gap-2 mb-4"><i
+            class="fa-solid fa-bolt text-accent"></i> New Tharindu Electricals</h4>
+        <p class="text-sm leading-relaxed">Your trusted source for electrical equipment and sound system solutions in
+          Matara, Sri Lanka.</p>
+      </div>
+      <div>
+        <h5 class="text-white font-semibold mb-4">Quick Links</h5>
+        <ul class="space-y-2 text-sm">
+          <li><a href="#hero" class="hover:text-accent transition">Home</a></li>
+          <li><a href="#about" class="hover:text-accent transition">About</a></li>
+          <li><a href="#products" class="hover:text-accent transition">Products</a></li>
+          <li><a href="#services" class="hover:text-accent transition">Services</a></li>
+          <li><a href="#contact" class="hover:text-accent transition">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5 class="text-white font-semibold mb-4">Contact</h5>
+        <ul class="space-y-2 text-sm">
+          <li class="flex items-start gap-2"><i class="fa-solid fa-location-dot text-accent mt-1"></i> No 144,
+            Mahaovita, Palatuwa, Matara, Sri Lanka</li>
+          <li class="flex items-center gap-2"><i class="fa-solid fa-phone text-accent"></i> +94 XX XXX XXXX</li>
+          <li class="flex items-center gap-2"><i class="fa-solid fa-envelope text-accent"></i> info@example.com</li>
+        </ul>
+      </div>
+      <div>
+        <h5 class="text-white font-semibold mb-4">Follow Us</h5>
+        <div class="flex gap-3">
+          <a href="#"
+            class="w-10 h-10 bg-white/10 hover:bg-accent rounded-lg flex items-center justify-center transition"
+            aria-label="Facebook"><i class="fa-brands fa-facebook-f text-white"></i></a>
+          <a href="#"
+            class="w-10 h-10 bg-white/10 hover:bg-accent rounded-lg flex items-center justify-center transition"
+            aria-label="WhatsApp"><i class="fa-brands fa-whatsapp text-white"></i></a>
+          <a href="#"
+            class="w-10 h-10 bg-white/10 hover:bg-accent rounded-lg flex items-center justify-center transition"
+            aria-label="Instagram"><i class="fa-brands fa-instagram text-white"></i></a>
+          <a href="#"
+            class="w-10 h-10 bg-white/10 hover:bg-accent rounded-lg flex items-center justify-center transition"
+            aria-label="YouTube"><i class="fa-brands fa-youtube text-white"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="border-t border-white/10 pt-6 text-center text-xs text-gray-500">&copy; <span id="current-year"></span>
+      New Tharindu Electricals. All rights reserved.</div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button id="back-to-top"
+    class="fixed bottom-6 right-6 z-50 w-12 h-12 bg-accent hover:bg-accent-hover text-primary rounded-full shadow-lg flex items-center justify-center opacity-0 pointer-events-none transition-opacity duration-300"
+    aria-label="Back to top"><i class="fa-solid fa-arrow-up text-lg"></i></button>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
